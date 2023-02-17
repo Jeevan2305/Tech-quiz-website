@@ -24,8 +24,10 @@ var questions = [{
 
 function welcome() {
  var userName = readlineSync.question("What's your name? ");
+ console.log("-------------")
 
-  console.log("Welcome "+ userName + " to DO YOU KNOW Tanay?");
+  console.log("Welcome "+ userName + " to DO YOU KNOW Technology?");
+  console.log("-------------")
 }
 
 
@@ -54,7 +56,7 @@ function game() {
 }
 
 function showScores() {
-  console.log("YAY! You SCORED: ", score);
+  console.log("YAY! You SCORED: "+ score +" out of 5 ");
 }
 
 
