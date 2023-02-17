@@ -2,19 +2,6 @@ var readlineSync = require("readline-sync");
 
 var score = 0;
 
-// // data of high score
-// var highScores = [
-//   {
-//     name: "Tanay",
-//     score: 3,
-//   },
-
-//   {
-//     name: "Akash",
-//     score: 2,
-//   },
-// ]
-
 // array of objects
 var questions = [{
   question: "Which is the first search engine in internet? ",
@@ -68,10 +55,6 @@ function game() {
 
 function showScores() {
   console.log("YAY! You SCORED: ", score);
-
-//   console.log("Check out the high scores, if you should be there ping me and I'll update it");
-
-//   highScores.map(score => console.log(score.name, " : ", score.score))
 }
 
 
